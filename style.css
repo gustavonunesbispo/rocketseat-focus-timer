@@ -6,3 +6,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* root */
+
+:root {
+  font-size: 62.5%;
+  --hue: 194;
+  --bg-color: hsl(var(--hue), 5%, 7%);
+  --text-color: hsl(var(--hue), 40%, 98%);
+  --primary-color: hsl(var(--hue), 100%, 63%);
+  --controls-bg-color: hsl(var(--hue), 0%, 14%);
+}
